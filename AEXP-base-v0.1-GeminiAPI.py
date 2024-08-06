@@ -1,8 +1,8 @@
-# AIzaSyBJKOX4hjVniqssUnC2pBEaLWHmTGDac_E -> Gemini API Key
+# To work the chatbot, you should get a Gemini API key from https://aistudio.google.com/app/apikey
 
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyBJKOX4hjVniqssUnC2pBEaLWHmTGDac_E")
+genai.configure(api_key="ENTER YOUR API KEY")
 model = genai.GenerativeModel('gemini-pro')
 
 while True:
